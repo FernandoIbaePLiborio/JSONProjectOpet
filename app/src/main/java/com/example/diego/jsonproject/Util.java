@@ -121,7 +121,7 @@ public class Util {
             return previsao;
         }catch (Exception e) {
             Log.e("ERROR", "Error ", e);
+            return null;
         }
-        return null;
     }
 }
